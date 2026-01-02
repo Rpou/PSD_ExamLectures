@@ -24,6 +24,7 @@
       <Compile Include="Expr\Expr.fs" />
       <Compile Include="Expr\Parse.fs" />
       <Compile Include="ex2_4Handout.fs" />
+      <Compile Include="Program.fs" />
     </ItemGroup>
 
     <ItemGroup>

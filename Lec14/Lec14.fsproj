@@ -76,6 +76,7 @@
       <ClCompile Include="Assembly\ex7.c" />
       <ClCompile Include="Assembly\ex8.c" />
       <ClCompile Include="Assembly\ex9.c" />
+      <Compile Include="Program.fs" />
     </ItemGroup>
 
   <ItemGroup>
