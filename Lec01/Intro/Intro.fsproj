@@ -3,11 +3,15 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net9.0</TargetFramework>
-    <LangVersion>latest</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="**/*.fs" />
+    <Compile Include="Intro1.fs" />
+    <Compile Include="Intro2.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="../../fsharp/FsLexYacc.Runtime.dll" />
   </ItemGroup>
 
 </Project>
