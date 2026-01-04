@@ -5,4 +5,10 @@
         <TargetFramework>net8.0</TargetFramework>
     </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="Imp\Naive.fsproj" />
+    <ProjectReference Include="MicroC\microcc.fsproj" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
 </Project>
